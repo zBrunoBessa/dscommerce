@@ -1,6 +1,7 @@
 package com.brunobessa.dscommerce.repositories;
 
 import java.util.List;
+import java.util.Optional;
 
 import com.brunobessa.dscommerce.entities.User;
 import com.brunobessa.dscommerce.projections.UserDetailsProjection;
@@ -20,4 +21,6 @@ public interface UserRepository extends JpaRepository<User, Long> {
 				WHERE tb_user.email = :email
 			""")
 	List<UserDetailsProjection> searchUserAndRolesByEmail(String email);
+
+	Optional<User> findByEmail(String email);
 }
