@@ -1,8 +1,8 @@
-# Dscommerce API
+# <h1 align="center">Dscommerce API</h1>
 A DSCommerce é uma API versátil para gerenciamento comercial, atendendo tanto administradores quanto clientes. Possui recursos de autenticação, perfis de usuário, gerenciamento de produtos, geração e consulta de ordens de compra. Utiliza o framework Spring (Spring Web, Spring Data JPA) para gerenciar o servidor e bancos de dados (MySQL, H2), e tecnologias de segurança como OAuth2, JWT e BCrypt.
 
 
-## Modelo conceitual
+# Modelo conceitual
 ![Modelo Conceitual](https://user-images.githubusercontent.com/91570669/206563729-68b3128d-03f5-4870-8350-52c3655a8ac7.png)
 
 # Tecnologias utilizadas
